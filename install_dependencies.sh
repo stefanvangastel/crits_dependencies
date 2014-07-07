@@ -143,7 +143,7 @@ cd kombu-2.5.4 && sudo ${PYBIN} setup.py install && cd ..
 cd celery-3.0.12 && sudo ${PYBIN} setup.py install && cd ..
 cd django-celery-3.0.11 && sudo ${PYBIN} setup.py install && cd ..
 cd requests-v1.1.0-9 && sudo ${PYBIN} setup.py install && cd ..
-cd cybox-2.1.0.4 && sudo ${PYBIN} setup.py install && cd ..
+cd cybox-2.1.0.5 && sudo ${PYBIN} setup.py install && cd ..
 cd stix-1.1.1.0 && sudo ${PYBIN} setup.py install && cd ..
 cd libtaxii-1.0.105 && sudo ${PYBIN} setup.py install && cd ..
 echo "Dependency installations complete!"
