@@ -106,7 +106,7 @@ cd Django-1.6.5 && sudo ${PYBIN} setup.py install && cd ..
 echo "Installing Django Tastypie 0.11.0..."
 cd django-tastypie-0.11.0 && sudo ${PYBIN} setup.py install && cd ..
 echo "Installing Django Tastypie Mongoengine 0.4.5..."
-cd django-tastypie-mongoengine-0.4.5. && sudo ${PYBIN} setup.py install && cd ..
+cd django-tastypie-mongoengine-0.4.5 && sudo ${PYBIN} setup.py install && cd ..
 echo "Installing MongoEngine 0.8.7..."
 cd mongoengine-0.8.7 && sudo ${PYBIN} setup.py install && cd ..
 echo "Installing ssdeep..."
@@ -143,7 +143,7 @@ cd kombu-2.5.4 && sudo ${PYBIN} setup.py install && cd ..
 cd celery-3.0.12 && sudo ${PYBIN} setup.py install && cd ..
 cd django-celery-3.0.11 && sudo ${PYBIN} setup.py install && cd ..
 cd requests-v1.1.0-9 && sudo ${PYBIN} setup.py install && cd ..
-cd cybox-2.0.0b6 && sudo ${PYBIN} setup.py install && cd ..
-cd stix-1.0.0a7 && sudo ${PYBIN} setup.py install && cd ..
-cd libtaxii-1.0.105 && sudo ${PYBIN} setup.py install && cd ..
+cd cybox-2.1.0.5 && sudo ${PYBIN} setup.py install && cd ..
+cd stix-1.1.1.0 && sudo ${PYBIN} setup.py install && cd ..
+cd libtaxii-1.1.102 && sudo ${PYBIN} setup.py install && cd ..
 echo "Dependency installations complete!"
