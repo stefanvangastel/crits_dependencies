@@ -123,7 +123,7 @@ cd pefile-1.2.10-114 && sudo ${PYBIN} setup.py install && cd ..
 echo "Installing Python magic..."
 cd python-magic && sudo ${PYBIN} setup.py install && cd ..
 echo "Installing Yara 2.1.0..."
-cd yara-2.1.0 && sudo ./configure && sudo make && sudo make install
+cd yara-2.1.0 && ./bootstrap.sh && sudo ./configure && sudo make && sudo make install
 cd yara-python && sudo ${PYBIN} setup.py install && cd ../..
 sudo ldconfig
 echo "Installing Pynids 0.6.1..."
