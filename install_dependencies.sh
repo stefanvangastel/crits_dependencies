@@ -95,14 +95,14 @@ else
 	exit
 fi
 
-echo "Installing MongoDB 2.6.1..."
-sudo cp mongodb-linux-x86_64-2.6.1/bin/* /usr/local/bin/
-echo "Installing PyMongo 2.7..."
-cd pymongo-2.7 && sudo ${PYBIN} setup.py install && cd ..
+echo "Installing MongoDB 2.6.4..."
+sudo cp mongodb-linux-x86_64-2.6.4/bin/* /usr/local/bin/
+echo "Installing PyMongo 2.7.2..."
+cd pymongo-2.7.2 && sudo ${PYBIN} setup.py install && cd ..
 echo "Installing DefusedXML 0.4.1..."
 cd defusedxml-0.4.1 && sudo ${PYBIN} setup.py install && cd ..
-echo "Installing Django 1.6.2..."
-cd Django-1.6.2 && sudo ${PYBIN} setup.py install && cd ..
+echo "Installing Django 1.6.5..."
+cd Django-1.6.5 && sudo ${PYBIN} setup.py install && cd ..
 echo "Installing Django Tastypie 0.11.0..."
 cd django-tastypie-0.11.0 && sudo ${PYBIN} setup.py install && cd ..
 echo "Installing Django Tastypie Mongoengine 0.4.5..."
@@ -122,9 +122,9 @@ echo "Installing Python pefile..."
 cd pefile-1.2.10-114 && sudo ${PYBIN} setup.py install && cd ..
 echo "Installing Python magic..."
 cd python-magic && sudo ${PYBIN} setup.py install && cd ..
-echo "Installing Yara 1.6..."
-cd yara-1.6 && sudo ./configure && sudo make && sudo make install && cd ..
-cd yara-python-1.6 && sudo ${PYBIN} setup.py install && cd ..
+echo "Installing Yara 2.1.0..."
+cd yara-2.1.0 && sudo ./configure && sudo make && sudo make install
+cd yara-python && sudo ${PYBIN} setup.py install && cd ../..
 sudo ldconfig
 echo "Installing Pynids 0.6.1..."
 cd pynids-0.6.1
