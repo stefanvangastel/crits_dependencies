@@ -56,8 +56,8 @@ then
 		echo "Installing ordereddict 1.1..."
 		cd ordereddict-1.1 && sudo ${PYBIN} setup.py install && cd ..
 	fi
-	echo "Installing python-dateutil 1.5..."
-	cd python-dateutil-1.5 && sudo ${PYBIN} setup.py install && cd ..
+	echo "Installing python-dateutil 2.2..."
+	cd python-dateutil-2.2 && sudo ${PYBIN} setup.py install && cd ..
 	echo "Installing UPX"
 	sudo apt-get -y install upx
 	echo "Installing M2Crypto"
