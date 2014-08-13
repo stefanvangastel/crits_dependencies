@@ -62,6 +62,14 @@ then
 	sudo apt-get -y install upx
 	echo "Installing M2Crypto"
 	sudo apt-get -y install m2crypto
+	echo "Installing libtool"
+	sudo apt-get -y install libtool
+	echo "Installing automake"
+	sudo apt-get -y install automake
+	echo "Installing bison"
+	sudo apt-get -y install bison
+	echo "Installing flex"
+	sudo apt-get -y install flex
 # TODO: Need to test centos dependencies
 # elif [ "$OS" == 'centos' ] || [ "$OS" == 'redhat' ]
 elif [ "$OS" == 'red hat' ]
