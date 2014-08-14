@@ -70,6 +70,8 @@ then
 	sudo apt-get -y install bison
 	echo "Installing flex"
 	sudo apt-get -y install flex
+	echo "Install python-pillow"
+	sudo apt-get -y install python-pillow
 # TODO: Need to test centos dependencies
 # elif [ "$OS" == 'centos' ] || [ "$OS" == 'redhat' ]
 elif [ "$OS" == 'red hat' ]
